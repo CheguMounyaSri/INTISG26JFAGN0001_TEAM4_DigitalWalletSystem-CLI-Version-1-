@@ -10,8 +10,8 @@ public class DatabaseConnection {
     private Connection connection;
 
     private static final String URL = "jdbc:mysql://localhost:3306/digital_wallet";
-    private static final String USER = "root";
-    private static final String PASSWORD = "root";
+    private static final String USER = "your_username";
+    private static final String PASSWORD = "your_password";
 
     private DatabaseConnection() {
         try {
